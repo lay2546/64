@@ -1,0 +1,132 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* สีพื้นหลังของหน้าเว็บ */
+    color: #333; /* สีข้อความทั่วไป */
+}
+
+/* Header Styles */
+.navbar {
+    display: flex; /* ใช้ Flexbox เพื่อจัดระเบียบ */
+    justify-content: space-between; /* จัดให้มีระยะห่างระหว่างองค์ประกอบ */
+    align-items: center; /* จัดให้อยู่กลางแนวตั้ง */
+    padding: 20px 40px; /* การเติมภายใน */
+    background-color: #ffffff; /* สีพื้นหลังของ navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เงาเบา */
+}
+
+.navbar h1 {
+    margin: 0; /* ลบระยะขอบ */
+    font-size: 30px; /* ขนาดฟอนต์ */
+}
+
+nav ul {
+    list-style: none; /* ลบสัญลักษณ์หน้ารายการ */
+    display: flex; /* แสดงรายการในรูปแบบแถว */
+    gap: 20px; /* ระยะห่างระหว่างรายการ */
+    padding: 0; /* ลบการเติม */
+    margin: 0; /* ลบระยะขอบ */
+}
+
+nav ul li a {
+    text-decoration: none; /* ลบเส้นใต้จากลิงก์ */
+    color: #000; /* สีข้อความในลิงก์ */
+    font-weight: bold; /* ตัวหนาสำหรับข้อความในลิงก์ */
+    transition: color 0.3s ease; /* การเปลี่ยนสีเมื่อชี้ */
+}
+
+nav ul li a:hover {
+    color: #1058dd; /* เปลี่ยนสีเมื่อชี้ */
+}
+
+/* Hero Text Styles */
+.hero-text h2 {
+    font-size: 36px; /* ขนาดฟอนต์ */
+    margin-bottom: 20px; /* ระยะขอบด้านล่าง */
+}
+
+/* Main Header Styles */
+h2 {
+    margin: 0; /* ลบระยะขอบ */
+    font-size: 30px; /* ขนาดฟอนต์ */
+    padding: 20px 40px; /* การเติมภายใน */
+}
+
+/* Icons Section Styles */
+.icons1 {
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+    margin: 20px 0; /* ระยะห่างด้านบนและด้านล่าง */
+}
+
+.recreation-image {
+    max-width: 100%; /* ทำให้ภาพปรับขนาดตามความกว้าง */
+    height: auto; /* รักษาสัดส่วนภาพ */
+    border-radius: 8px; /* มุมโค้งของภาพ */
+}
+
+/* Recreation Description */
+.recreation-description {
+    font-size: 1.2em; /* ขนาดฟอนต์ */
+    color: #333; /* สีข้อความ */
+    line-height: 1.5; /* ความสูงของบรรทัด */
+    margin: 100px 0; /* ระยะห่างด้านบนและด้านล่าง */
+    max-width: 600px; /* กำหนดความกว้างสูงสุดเพื่อไม่ให้ข้อความยาวเกินไป */
+}
+
+/* Image Styles */
+.img {
+    width: 100px; /* กำหนดความกว้าง */
+    height: 100px; /* กำหนดความสูง */
+    border: 1px solid #000; /* กำหนดกรอบ */
+    text-align: center; /* จัดข้อความให้อยู่กลาง */
+    background-color: #000; /* สีพื้นหลัง */
+}
+
+/* Box Styles */
+.box {
+    border: 2px solid #007bff; /* กำหนดกรอบ 2 พิกเซล สีฟ้า */
+    border-radius: 8px; /* ความโค้งของมุม */
+    padding: 20px; /* การเติมภายใน */
+    margin: 20px; /* ระยะห่างรอบ ๆ กรอบ */
+    background-color: #ffffff; /* สีพื้นหลังของกรอบ */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เงาเบา */
+}
+
+h2 {
+    margin: 0 0 10px; /* ระยะขอบด้านบนและล่าง */
+    font-size: 24px; /* ขนาดฟอนต์หัวข้อ */
+}
+
+p {
+    margin: 0; /* ลบระยะขอบ */
+    font-size: 16px; /* ขนาดฟอนต์ */
+    color: #333; /* สีข้อความ */
+}
+
+/* Image and Text Container */
+.image-text-container {
+    display: flex; /* ใช้ Flexbox */
+    align-items: center; /* จัดตำแหน่งให้อยู่กลาง */
+    margin: 20px 0; /* ระยะขอบด้านบนและล่าง */
+}
+
+.activity-image {
+    max-width: 800px; /* กำหนดความกว้างสูงสุดของภาพ */
+    height: auto; /* รักษาสัดส่วนภาพ */
+    margin-right: 20px; /* ระยะห่างระหว่างภาพและข้อความ */
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .image-text-container {
+        flex-direction: column; /* เรียงแนวตั้งบนหน้าจอเล็ก */
+        align-items: flex-start; /* จัดแนวด้านซ้าย */
+    }
+
+    .activity-image {
+        margin-right: 0; /* ลบระยะห่างขวา */
+        margin-bottom: 10px; /* เพิ่มระยะห่างด้านล่าง */
+    }
+}
