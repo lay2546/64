@@ -95,24 +95,30 @@ h2 {
 }
 
 h2 {
-    margin: 0 0 10px; /* ระยะขอบด้านบนและล่าง */
+    font-family: "Prompt", Arial, sans-serif;
+    font-weight: bold;
+    margin: -1px 0 -23px; /* ระยะขอบด้านบนและล่าง */
+    font-size: 33px; /* ขนาดฟอนต์หัวข้อ */
+}
+h1 {
+    margin: 0 0 525px; /* ระยะขอบด้านบนและล่าง */
     font-size: 24px; /* ขนาดฟอนต์หัวข้อ */
 }
 
-p {
-    margin: 0; /* ลบระยะขอบ */
-    font-size: 16px; /* ขนาดฟอนต์ */
+p1 {
+    margin-top: -480px;/* ลบระยะขอบ */
+    font-size: 24px; /* ขนาดฟอนต์ */
     color: #333; /* สีข้อความ */
 }
 
 /* Image and Text Container */
 .image-text-container {
     display: flex; /* ใช้ Flexbox */
-    align-items: center; /* จัดตำแหน่งให้อยู่กลาง */
     margin: 20px 0; /* ระยะขอบด้านบนและล่าง */
 }
 
 .activity-image {
+    margin-left: 20px;
     max-width: 800px; /* กำหนดความกว้างสูงสุดของภาพ */
     height: auto; /* รักษาสัดส่วนภาพ */
     margin-right: 20px; /* ระยะห่างระหว่างภาพและข้อความ */
@@ -130,3 +136,65 @@ p {
         margin-bottom: 10px; /* เพิ่มระยะห่างด้านล่าง */
     }
 }
+h4 {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+h4 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.indent1{  
+    text-indent: 30px;  
+    line-height: 1.6; /* เพิ่มความสูงของบรรทัด */
+    margin: 24px 0; /* เพิ่มระยะห่างด้านบนและด้านล่าง */
+    font-size: 25;
+ }
+ b{
+    font-size: 24px; 
+ }
+ p {
+    font-size: 16px; /* ขนาดฟอนต์ที่ต้องการ */
+    line-height: 1.6; /* ความสูงของบรรทัด */
+    margin: 10px 0; /* ระยะห่างด้านบนและล่าง */
+}
+
+strong {
+    font-weight: bold; /* ทำให้ข้อความในแท็ก strong หนา */
+}
+h6 {
+    text-indent: -0px;
+    font-size: 16px; /* ขนาดฟอนต์ */
+    line-height: 1.5; /* ความสูงของบรรทัด */
+    margin: 20px 0; /* ระยะห่างด้านบนและด้านล่าง */
+    color: #000000; /* สีข้อความ */
+}
+
+strong {
+    font-weight: bold; /* ทำให้ข้อความในแท็ก strong หนา */
+}
+
+em {
+    font-style: italic; /* ทำให้ข้อความในแท็ก em เป็นตัวเอียง */
+}
+
+mark {
+    background-color: rgba(255, 255, 0, 0.5); /* สีพื้นหลังสำหรับ mark */
+}
+
+a {
+    color: #eb0a0a; /* สีของลิงก์ */
+    text-decoration: none; /* ลบเส้นใต้ */
+}
+
+a:hover {
+    text-decoration: underline; /* เส้นใต้เมื่อชี้ไปที่ลิงก์ */
+}
+
+
+
+ 

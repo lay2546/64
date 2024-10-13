@@ -3,7 +3,7 @@ session_start(); // เริ่มต้นเซสชัน
 
 // ถ้าล็อกอินอยู่แล้ว ให้เปลี่ยนเส้นทางไปยังหน้าอื่น
 if (isset($_SESSION['username'])) {
-    header("Location: วิจัย1.html"); 
+    header("Location: หน้าแรก.html"); 
     exit();
 }
 
@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <h1>สันทนาการ</h1>
         <nav>
             <ul>
-                <li><a href="วิจัย1.html">หน้าแรก</a></li>
+                <li><a href="หน้าแรก.html">หน้าแรก</a></li>
                 <li><a href="ห้องสมุด.html">ห้องสมุด</a></li>
                 <li><a href="#">ฟิตเนส</a></li>
                 <li><a href="#">สวนสาธารณะ</a></li>
