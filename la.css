@@ -195,6 +195,59 @@ a:hover {
     text-decoration: underline; /* เส้นใต้เมื่อชี้ไปที่ลิงก์ */
 }
 
+/* Container for Image and Text */
+.image-text-container {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start; /* จัดให้ข้อความอยู่ด้านบนของภาพ */
+    margin-top: 20px;
+}
+
+/* Fixed Size for Image */
+.activity-image {
+    width: 300px; /* ล็อกความกว้างของรูปภาพ */
+    height: 200px; /* ล็อกความสูงของรูปภาพ */
+    object-fit: cover; /* ปรับภาพให้ครอบคลุมพื้นที่โดยไม่เสียสัดส่วน */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Text Section */
+.details {
+    max-width: 400px;
+    line-height: 1.6;
+}
+
+/* Map Container */
+.map-container {
+    margin-top: 20px;
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+    .image-text-container {
+        flex-direction: column; /* เรียงแนวตั้งเมื่อหน้าจอเล็ก */
+    }
+
+    .activity-image {
+        width: 100%; /* ทำให้ภาพขยายเต็มคอนเทนเนอร์บนหน้าจอเล็ก */
+        height: auto; /* รักษาสัดส่วนของภาพ */
+    }
+}
+.activity-image {
+    width: 800px; /* ความกว้างคงที่ */
+    height: 560px; /* ความสูงคงที่ */
+    object-fit: cover; /* ครอบให้เต็มคอนเทนเนอร์โดยไม่เสียสัดส่วน */
+    border-radius: 8px; /* ทำให้มุมโค้งมน */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* เพิ่มเงาเบาๆ */
+    display: block; /* แสดงเป็นบล็อก */
+    margin: 20px auto; /* จัดให้อยู่ตรงกลางในแนวนอน */
+}
 
 
- 
+
+
+
+
+
+
