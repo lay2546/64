@@ -3,84 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="วิจัย2.css">
     <title>สันทนาการในกรุงเทพ</title>
+    <link rel="stylesheet" href="23.css">
 </head>
 <body>
     <header class="navbar">
         <h1>สันทนาการ</h1>
         <nav>
-            <ul>        
+            <ul>
                 <li><a href="หน้าแรก.html">หน้าแรก</a></li>
                 <li><a href="ห้องสมุด.html">ห้องสมุด</a></li>
                 <li><a href="ฟิตเนส.html">ฟิตเนส</a></li>
                 <li><a href="สวนสาธารณะ.html">สวนสาธารณะ</a></li>
                 <li><a href="แกลเลอรี่.html">แกลเลอรี่</a></li>
             </ul>
-        </header>
-        <main>
-            </section>
-            <section class="activities">
-                <div class="activity">
-                    <img src="รูป/ห้องสมุด.webp" alt="TCDC Bangkok ศูนย์สร้างสรรค์งานออกแบบ">
-                    <button onclick="window.location.href='ห้องสมุด.html'">TCDC Bangkok ศูนย์สร้างสรรค์งานออกแบบ</button>
-                </div>
-                <div class="activity">
-                    <img src="รูป/ภาพฟิตเนส.webp" alt="TK Park อุทยานการเรียนรู้">
-                    <button onclick="window.location.href='new-activity.html'">TK Park อุทยานการเรียนรู้</button>            
-                </div>
-                <div class="activity">
-                    <img src="รูป/ภาพสวนสาธารณะ.webp" alt=" Neilson Hays Library">
-                    <button onclick="window.location.href='new-activity.html'"> Neilson Hays Library</button>            
-                </div>
-                </div>
-                <div class="activity">
-                    <img src="รูป/ภาพแกลเลอรี่.webp" alt="The Reading Room">
-                    <button onclick="window.location.href='new-activity.html'">The Reading Room</button>            
-                </div>
-                </div>
-            </div>
-                <div class="activity">
-                    <img src="รูป/ภาพแกลเลอรี่.webp" alt="Bangkok City Library">
-                    <button onclick="window.location.href='new-activity.html'">Bangkok City Library</button>            
-                </div>
-                </div>
-            </div>
-            <div class="activity">
-                <img src="รูป/ภาพฟิตเนส.webp" alt="ห้องสมุดเพื่อการเรียนรู้สวนลุมพินีและห้องสมุดเต่าทอง">
-                <button onclick="window.location.href='new-activity.html'">ห้องสมุดเพื่อการเรียนรู้สวนลุมพินีและห้องสมุดเต่าทอง</button>            
-            </div>
-            <div class="activity">
-                <img src="รูป/ภาพสวนสาธารณะ.webp" alt="ห้องสมุดสถาบันเกอเธ่ฯ">
-                <button onclick="window.location.href='new-activity.html'">ห้องสมุดสถาบันเกอเธ่ฯ</button>            
-            </div>
-            </div>
-            <div class="activity">
-                <img src="รูป/ภาพแกลเลอรี่.webp" alt="ห้องสมุดศูนย์การเรียนรู้ธนาคารแห่งประเทศไทย">
-                <button onclick="window.location.href='new-activity.html'">ห้องสมุดศูนย์การเรียนรู้ธนาคารแห่งประเทศไทย</button>            
-            </div>
-            </div>
-        </div>
-        <div class="activity">
-            <img src="รูป/ภาพฟิตเนส.webp" alt="ห้องสมุดวิลเลียม วอร์เรน">
-            <button onclick="window.location.href='new-activity.html'">ห้องสมุดวิลเลียม วอร์เรน</button>            
-        </div>
-        <div class="activity">
-            <img src="รูป/ภาพสวนสาธารณะ.webp" alt="ห้องสมุดศิลปวัฒนธรรมร่วมสมัยราชดำเนิน">
-            <button onclick="window.location.href='new-activity.html'">ห้องสมุดศิลปวัฒนธรรมร่วมสมัยราชดำเนิน</button>            </div>
-        </div>
-        <div class="activity">
-            <img src="รูป/ภาพแกลเลอรี่.webp" alt="ศูนย์สร้างสรรค์งานออกแบบ">
-            <button onclick="window.location.href='new-activity.html'">ศูนย์สร้างสรรค์งานออกแบบ</button>            </div>
-        </div>
-    </div>
-        <div class="activity">
-            <img src="รูป/ภาพแกลเลอรี่.webp" alt="The Reading Room">
-            <button onclick="window.location.href='new-activity.html'">The Reading Room</button>            </div>
-        </div>
+        </nav>
+    </header>
 
-            </section>
-        </main>
-    </body>
-    </html>
-    
+    <main class="container">
+        <section class="activities">
+            <!-- การ์ดกิจกรรมที่ 1 -->
+            <div class="activity card" onclick="window.location.href='TCDC Bangkok.html'" style="cursor: pointer;">
+                <img src="รูป/unnamed.jpg" class="card-img" alt="สวนลุมพินี">
+                <div class="card-body">
+                    <h5 class="card-title">ห้องสมุดศูนย์การเรียนรู้ธนาคารแห่งประเทศไทย</h5>
+                    <div class="card-footer">
+                        <span class="text-muted">เปลี่ยนหน้าเมื่อคลิกทั้งการ์ด</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- การ์ดกิจกรรมที่ 2 -->
+            <div class="activity card" onclick="window.location.href='TCDC Bangkok.html'" style="cursor: pointer;">
+                <img src="รูป/unnamed.jpg" class="card-img" alt="สวนลุมพินี">
+                <div class="card-body">
+                    <h5 class="card-title">ห้องสมุดศูนย์การเรียนรู้ธนาคารแห่งประเทศไทย</h5>
+                    <div class="card-footer">
+                        <span class="text-muted">เปลี่ยนหน้าเมื่อคลิกทั้งการ์ด</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="activity card" onclick="window.location.href='TCDC Bangkok.html'" style="cursor: pointer;">
+                <img src="รูป/unnamed.jpg" class="card-img" alt="สวนลุมพินี">
+                <div class="card-body">
+                    <h5 class="card-title">ห้องสมุดศูนย์การเรียนรู้ธนาคารแห่งประเทศไทย</h5>
+                    <div class="card-footer">
+                        <span class="text-muted">เปลี่ยนหน้าเมื่อคลิกทั้งการ์ด</span>
+                    </div>
+                </div>
+            </div>
+            <div class="activity card" onclick="window.location.href='TCDC Bangkok.html'" style="cursor: pointer;">
+                <img src="รูป/unnamed.jpg" class="card-img" alt="สวนลุมพินี">
+                <div class="card-body">
+                    <h5 class="card-title">ห้องสมุดศูนย์การเรียนรู้ธนาคารแห่งประเทศไทย</h5>
+                    <div class="card-footer">
+                        <span class="text-muted">เปลี่ยนหน้าเมื่อคลิกทั้งการ์ด</span>
+                    </div>
+                </div>
+            </div>
+            <div class="activity card" onclick="window.location.href='TCDC Bangkok.html'" style="cursor: pointer;">
+                <img src="รูป/unnamed.jpg" class="card-img" alt="สวนลุมพินี">
+                <div class="card-body">
+                    <h5 class="card-title">ห้องสมุดศูนย์การเรียนรู้ธนาคารแห่งประเทศไทย</h5>
+                    <div class="card-footer">
+                        <span class="text-muted">เปลี่ยนหน้าเมื่อคลิกทั้งการ์ด</span>
+                    </div>
+                </div>
+            </div>
+           <div class="activity card" onclick="window.location.href='TCDC Bangkok.html'" style="cursor: pointer;">
+                <img src="รูป/unnamed.jpg" class="card-img" alt="สวนลุมพินี">
+                <div class="card-body">
+                    <h5 class="card-title">ห้องสมุดศูนย์การเรียนรู้ธนาคารแห่งประเทศไทย</h5>
+                    <div class="card-footer">
+                        <span class="text-muted">เปลี่ยนหน้าเมื่อคลิกทั้งการ์ด</span>
+                    </div>
+                </div>
+            </div>
+            <div class="activity card" onclick="window.location.href='TCDC Bangkok.html'" style="cursor: pointer;">
+                <img src="รูป/unnamed.jpg" class="card-img" alt="สวนลุมพินี">
+                <div class="card-body">
+                    <h5 class="card-title">ห้องสมุดศูนย์การเรียนรู้ธนาคารแห่งประเทศไทย</h5>
+                    <div class="card-footer">
+                        <span class="text-muted">เปลี่ยนหน้าเมื่อคลิกทั้งการ์ด</span>
+                    </div>
+                </div>
+            </div>
+            <div class="activity card" onclick="window.location.href='TCDC Bangkok.html'" style="cursor: pointer;">
+                <img src="รูป/unnamed.jpg" class="card-img" alt="สวนลุมพินี">
+                <div class="card-body">
+                    <h5 class="card-title">ห้องสมุดศูนย์การเรียนรู้ธนาคารแห่งประเทศไทย</h5>
+                    <div class="card-footer">
+                        <span class="text-muted">เปลี่ยนหน้าเมื่อคลิกทั้งการ์ด</span>
+                    </div>
+                </div>
+            </div>
+            <div class="activity card" onclick="window.location.href='TCDC Bangkok.html'" style="cursor: pointer;">
+                <img src="รูป/unnamed.jpg" class="card-img" alt="สวนลุมพินี">
+                <div class="card-body">
+                    <h5 class="card-title">ห้องสมุดศูนย์การเรียนรู้ธนาคารแห่งประเทศไทย</h5>
+                    <div class="card-footer">
+                        <span class="text-muted">เปลี่ยนหน้าเมื่อคลิกทั้งการ์ด</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
